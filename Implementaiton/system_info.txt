@@ -1,0 +1,91 @@
+System Information:
+System: Darwin
+Node Name: Siddhants-MacBook-Air.local
+Release: 24.3.0
+Version: Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:06 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T8103
+Machine: arm64
+Processor: arm
+Architecture: 64bit
+
+RAM Information:
+Total RAM (GB): 8.0
+Available RAM (GB): 1.59
+Used RAM (GB): 2.84
+RAM Usage (%): 80.1
+Total Swap (GB): 2.0
+Used Swap (GB): 1.14
+Swap Usage (%): 57.2
+
+GPU Information:
+Storage Information:
+Device: /dev/disk3s1s1
+  Mount Point: /
+  File System: apfs
+  Total Space (GB): 228.27
+  Used Space (GB): 10.39
+  Free Space (GB): 54.21
+  Usage (%): 16.1
+
+Device: /dev/disk3s6
+  Mount Point: /System/Volumes/VM
+  File System: apfs
+  Total Space (GB): 228.27
+  Used Space (GB): 2.0
+  Free Space (GB): 54.21
+  Usage (%): 3.6
+
+Device: /dev/disk3s2
+  Mount Point: /System/Volumes/Preboot
+  File System: apfs
+  Total Space (GB): 228.27
+  Used Space (GB): 6.38
+  Free Space (GB): 54.21
+  Usage (%): 10.5
+
+Device: /dev/disk3s4
+  Mount Point: /System/Volumes/Update
+  File System: apfs
+  Total Space (GB): 228.27
+  Used Space (GB): 0.0
+  Free Space (GB): 54.21
+  Usage (%): 0.0
+
+Device: /dev/disk2s2
+  Mount Point: /System/Volumes/xarts
+  File System: apfs
+  Total Space (GB): 0.49
+  Used Space (GB): 0.01
+  Free Space (GB): 0.47
+  Usage (%): 1.2
+
+Device: /dev/disk2s1
+  Mount Point: /System/Volumes/iSCPreboot
+  File System: apfs
+  Total Space (GB): 0.49
+  Used Space (GB): 0.01
+  Free Space (GB): 0.47
+  Usage (%): 1.1
+
+Device: /dev/disk2s3
+  Mount Point: /System/Volumes/Hardware
+  File System: apfs
+  Total Space (GB): 0.49
+  Used Space (GB): 0.0
+  Free Space (GB): 0.47
+  Usage (%): 0.3
+
+Device: /dev/disk3s5
+  Mount Point: /System/Volumes/Data
+  File System: apfs
+  Total Space (GB): 228.27
+  Used Space (GB): 154.19
+  Free Space (GB): 54.21
+  Usage (%): 74.0
+
+Device: /dev/disk3s3
+  Mount Point: /Volumes/Recovery
+  File System: apfs
+  Total Space (GB): 228.27
+  Used Space (GB): 0.96
+  Free Space (GB): 54.21
+  Usage (%): 1.7

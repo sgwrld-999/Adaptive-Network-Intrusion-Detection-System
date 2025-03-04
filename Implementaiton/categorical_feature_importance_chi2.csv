@@ -1,0 +1,13 @@
+Feature,P-Value
+ip.src_host,0.0
+ip.dst_host,0.0
+arp.src.proto_ipv4,0.0
+http.request.method,0.0
+http.request.version,0.0
+tcp.options,0.0
+tcp.srcport,0.0
+mqtt.conack.flags,0.0
+mqtt.protoname,0.0
+mqtt.topic,0.0
+arp.dst.proto_ipv4,2.977278872468132e-53
+http.request.uri.query,3.5588596750617924e-42
