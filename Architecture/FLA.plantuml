@@ -1,0 +1,47 @@
+@startuml
+title First Layer Architecture - Adaptive Network IDS
+
+start
+
+:Load Normalized & Scaled Dataset;
+:Extract Relevant Features;
+:Split Data into Training & Validation Sets;
+
+note right
+Feature Engineering:
+- Remove redundant features
+- Apply Min-Max Scaling
+end note
+
+if (Is Data Shape Valid?) then (Yes)
+    :Pass Data to Autoencoder-LSTM;
+else (No)
+    :Raise Exception & Reformat Data;
+    stop
+endif
+
+partition "Autoencoder-LSTM" {
+    :LSTM Encoder - Compress Input Features;
+    :LSTM Decoder - Reconstruct Normal Traffic Patterns;
+    :Compute Reconstruction Error;
+}
+
+if (Reconstruction Error > Threshold?) then (Yes)
+    :Mark as Anomaly;
+    :Pass to CNN Feature Extractor;
+else (No)
+    :Mark as Benign;
+    stop
+endif
+
+partition "CNN Feature Extraction" {
+    :Apply 1D Convolution to Enhance Features;
+    :Extract Spatial Dependencies in Traffic Data;
+    :Pass Features for Further Analysis;
+}
+
+:Store Processed Data & Anomaly Labels;
+:Forward Anomalies to Layer 2 for Classification;
+
+stop
+@enduml

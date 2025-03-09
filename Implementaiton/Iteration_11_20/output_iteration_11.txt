@@ -1,0 +1,184 @@
+Training data shape: (12075, 44)
+Validation data shape: (3019, 44)
+
+Training with batch size 128 for 10 epochs
+Epoch 1/10
+[1m95/95[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 52ms/step - loss: 2.6114 - mae: 0.0904 - mean_squared_error: 0.1114 - val_loss: 1.2113 - val_mae: 0.0836 - val_mean_squared_error: 0.1082 - learning_rate: 4.7489e-05
+Epoch 2/10
+[1m95/95[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 46ms/step - loss: 2.0838 - mae: 0.0906 - mean_squared_error: 0.1101 - val_loss: 0.6591 - val_mae: 0.0866 - val_mean_squared_error: 0.1080 - learning_rate: 9.4915e-05
+Epoch 3/10
+[1m95/95[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 47ms/step - loss: 1.4334 - mae: 0.0927 - mean_squared_error: 0.1114 - val_loss: 0.5612 - val_mae: 0.0919 - val_mean_squared_error: 0.1077 - learning_rate: 1.4221e-04
+Epoch 4/10
+[1m95/95[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 48ms/step - loss: 1.1017 - mae: 0.0987 - mean_squared_error: 0.1136 - val_loss: 0.4812 - val_mae: 0.1000 - val_mean_squared_error: 0.1075 - learning_rate: 1.8932e-04
+Epoch 5/10
+[1m95/95[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 48ms/step - loss: 0.8869 - mae: 0.1032 - mean_squared_error: 0.1129 - val_loss: 0.4148 - val_mae: 0.1028 - val_mean_squared_error: 0.1075 - learning_rate: 2.3618e-04
+Epoch 6/10
+[1m95/95[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 47ms/step - loss: 0.7104 - mae: 0.1056 - mean_squared_error: 0.1153 - val_loss: 0.3840 - val_mae: 0.1023 - val_mean_squared_error: 0.1076 - learning_rate: 2.8272e-04
+Epoch 7/10
+[1m95/95[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 48ms/step - loss: 0.5696 - mae: 0.1051 - mean_squared_error: 0.1149 - val_loss: 0.3687 - val_mae: 0.1024 - val_mean_squared_error: 0.1076 - learning_rate: 3.2889e-04
+Epoch 8/10
+[1m95/95[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 47ms/step - loss: 0.4702 - mae: 0.1044 - mean_squared_error: 0.1109 - val_loss: 0.3594 - val_mae: 0.1033 - val_mean_squared_error: 0.1076 - learning_rate: 3.7462e-04
+Epoch 9/10
+[1m95/95[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 49ms/step - loss: 0.4212 - mae: 0.1056 - mean_squared_error: 0.1175 - val_loss: 0.3499 - val_mae: 0.0998 - val_mean_squared_error: 0.1069 - learning_rate: 4.1984e-04
+Epoch 10/10
+[1m95/95[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 49ms/step - loss: 0.3846 - mae: 0.1034 - mean_squared_error: 0.1122 - val_loss: 0.3401 - val_mae: 0.1026 - val_mean_squared_error: 0.1062 - learning_rate: 4.6451e-04
+
+Training with batch size 64 for 10 epochs
+Epoch 11/20
+[1m189/189[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 33ms/step - loss: 0.3508 - mae: 0.1058 - mean_squared_error: 0.1124 - val_loss: 0.3197 - val_mae: 0.1052 - val_mean_squared_error: 0.1052 - learning_rate: 4.9976e-04
+Epoch 12/20
+[1m189/189[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 38ms/step - loss: 0.3318 - mae: 0.1047 - mean_squared_error: 0.1158 - val_loss: 0.2978 - val_mae: 0.1030 - val_mean_squared_error: 0.1026 - learning_rate: 4.9868e-04
+Epoch 13/20
+[1m189/189[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 36ms/step - loss: 0.3047 - mae: 0.1051 - mean_squared_error: 0.1100 - val_loss: 0.2765 - val_mae: 0.1044 - val_mean_squared_error: 0.1009 - learning_rate: 4.9671e-04
+Epoch 14/20
+[1m189/189[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 42ms/step - loss: 0.2825 - mae: 0.1062 - mean_squared_error: 0.1085 - val_loss: 0.2555 - val_mae: 0.1044 - val_mean_squared_error: 0.0993 - learning_rate: 4.9388e-04
+Epoch 15/20
+[1m189/189[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 33ms/step - loss: 0.2588 - mae: 0.1067 - mean_squared_error: 0.1051 - val_loss: 0.2348 - val_mae: 0.0998 - val_mean_squared_error: 0.0975 - learning_rate: 4.9019e-04
+Epoch 16/20
+[1m189/189[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 30ms/step - loss: 0.2417 - mae: 0.1062 - mean_squared_error: 0.1071 - val_loss: 0.2155 - val_mae: 0.0988 - val_mean_squared_error: 0.0961 - learning_rate: 4.8566e-04
+Epoch 17/20
+[1m189/189[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 29ms/step - loss: 0.2221 - mae: 0.1058 - mean_squared_error: 0.1055 - val_loss: 0.1978 - val_mae: 0.0970 - val_mean_squared_error: 0.0946 - learning_rate: 4.8029e-04
+Epoch 18/20
+[1m189/189[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 30ms/step - loss: 0.2052 - mae: 0.1055 - mean_squared_error: 0.1047 - val_loss: 0.1812 - val_mae: 0.0993 - val_mean_squared_error: 0.0928 - learning_rate: 4.7412e-04
+Epoch 19/20
+[1m189/189[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 30ms/step - loss: 0.1899 - mae: 0.1060 - mean_squared_error: 0.1039 - val_loss: 0.1677 - val_mae: 0.0948 - val_mean_squared_error: 0.0921 - learning_rate: 4.6715e-04
+Epoch 20/20
+[1m189/189[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 40ms/step - loss: 0.1735 - mae: 0.1046 - mean_squared_error: 0.1001 - val_loss: 0.1559 - val_mae: 0.0954 - val_mean_squared_error: 0.0915 - learning_rate: 4.5942e-04
+
+Training with batch size 32 for 10 epochs
+Epoch 21/30
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 24ms/step - loss: 0.1606 - mae: 0.1057 - mean_squared_error: 0.1009 - val_loss: 0.1352 - val_mae: 0.0968 - val_mean_squared_error: 0.0884 - learning_rate: 4.4178e-04
+Epoch 22/30
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 24ms/step - loss: 0.1406 - mae: 0.1045 - mean_squared_error: 0.0970 - val_loss: 0.1196 - val_mae: 0.0958 - val_mean_squared_error: 0.0853 - learning_rate: 4.2144e-04
+Epoch 23/30
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 24ms/step - loss: 0.1307 - mae: 0.1031 - mean_squared_error: 0.0985 - val_loss: 0.1080 - val_mae: 0.0980 - val_mean_squared_error: 0.0826 - learning_rate: 3.9869e-04
+Epoch 24/30
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 24ms/step - loss: 0.1170 - mae: 0.1022 - mean_squared_error: 0.0929 - val_loss: 0.0998 - val_mae: 0.0946 - val_mean_squared_error: 0.0806 - learning_rate: 3.7385e-04
+Epoch 25/30
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 25ms/step - loss: 0.1128 - mae: 0.1016 - mean_squared_error: 0.0944 - val_loss: 0.0922 - val_mae: 0.0945 - val_mean_squared_error: 0.0772 - learning_rate: 3.4727e-04
+Epoch 26/30
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 25ms/step - loss: 0.1014 - mae: 0.1002 - mean_squared_error: 0.0873 - val_loss: 0.0868 - val_mae: 0.0919 - val_mean_squared_error: 0.0754 - learning_rate: 3.1933e-04
+Epoch 27/30
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m12s[0m 31ms/step - loss: 0.0983 - mae: 0.1002 - mean_squared_error: 0.0872 - val_loss: 0.0842 - val_mae: 0.0927 - val_mean_squared_error: 0.0749 - learning_rate: 2.9040e-04
+Epoch 28/30
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m13s[0m 33ms/step - loss: 0.0940 - mae: 0.0995 - mean_squared_error: 0.0847 - val_loss: 0.0798 - val_mae: 0.0905 - val_mean_squared_error: 0.0719 - learning_rate: 2.6092e-04
+Epoch 29/30
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m11s[0m 29ms/step - loss: 0.0914 - mae: 0.0990 - mean_squared_error: 0.0835 - val_loss: 0.0775 - val_mae: 0.0888 - val_mean_squared_error: 0.0706 - learning_rate: 2.3128e-04
+Epoch 30/30
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 27ms/step - loss: 0.0873 - mae: 0.0979 - mean_squared_error: 0.0804 - val_loss: 0.0753 - val_mae: 0.0902 - val_mean_squared_error: 0.0691 - learning_rate: 2.0191e-04
+
+Training with batch size 32 for 10 epochs
+Epoch 31/40
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m11s[0m 29ms/step - loss: 0.0835 - mae: 0.0965 - mean_squared_error: 0.0773 - val_loss: 0.0735 - val_mae: 0.0898 - val_mean_squared_error: 0.0677 - learning_rate: 1.7322e-04
+Epoch 32/40
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0845 - mae: 0.0968 - mean_squared_error: 0.0788 - val_loss: 0.0724 - val_mae: 0.0874 - val_mean_squared_error: 0.0673 - learning_rate: 1.4562e-04
+Epoch 33/40
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 27ms/step - loss: 0.0816 - mae: 0.0958 - mean_squared_error: 0.0763 - val_loss: 0.0702 - val_mae: 0.0869 - val_mean_squared_error: 0.0654 - learning_rate: 1.1949e-04
+Epoch 34/40
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 27ms/step - loss: 0.0795 - mae: 0.0952 - mean_squared_error: 0.0745 - val_loss: 0.0700 - val_mae: 0.0869 - val_mean_squared_error: 0.0652 - learning_rate: 9.5200e-05
+Epoch 35/40
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m11s[0m 30ms/step - loss: 0.0839 - mae: 0.0956 - mean_squared_error: 0.0790 - val_loss: 0.0694 - val_mae: 0.0884 - val_mean_squared_error: 0.0649 - learning_rate: 7.3096e-05
+Epoch 36/40
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 25ms/step - loss: 0.0791 - mae: 0.0946 - mean_squared_error: 0.0745 - val_loss: 0.0688 - val_mae: 0.0874 - val_mean_squared_error: 0.0645 - learning_rate: 5.3487e-05
+Epoch 37/40
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0799 - mae: 0.0944 - mean_squared_error: 0.0754 - val_loss: 0.0684 - val_mae: 0.0872 - val_mean_squared_error: 0.0640 - learning_rate: 3.6650e-05
+Epoch 38/40
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m11s[0m 29ms/step - loss: 0.0797 - mae: 0.0951 - mean_squared_error: 0.0752 - val_loss: 0.0681 - val_mae: 0.0878 - val_mean_squared_error: 0.0639 - learning_rate: 2.2821e-05
+Epoch 39/40
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m11s[0m 29ms/step - loss: 0.0780 - mae: 0.0945 - mean_squared_error: 0.0736 - val_loss: 0.0678 - val_mae: 0.0874 - val_mean_squared_error: 0.0636 - learning_rate: 1.2196e-05
+Epoch 40/40
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 24ms/step - loss: 0.0798 - mae: 0.0945 - mean_squared_error: 0.0754 - val_loss: 0.0676 - val_mae: 0.0874 - val_mean_squared_error: 0.0634 - learning_rate: 4.9238e-06
+
+Training with batch size 32 for 10 epochs
+Epoch 41/50
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 23ms/step - loss: 0.0783 - mae: 0.0945 - mean_squared_error: 0.0740 - val_loss: 0.0677 - val_mae: 0.0874 - val_mean_squared_error: 0.0636 - learning_rate: 1.1072e-06
+Epoch 42/50
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 23ms/step - loss: 0.0780 - mae: 0.0943 - mean_squared_error: 0.0736 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 43/50
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0793 - mae: 0.0944 - mean_squared_error: 0.0750 - val_loss: 0.0677 - val_mae: 0.0874 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 44/50
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 23ms/step - loss: 0.0787 - mae: 0.0943 - mean_squared_error: 0.0743 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 45/50
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 23ms/step - loss: 0.0784 - mae: 0.0942 - mean_squared_error: 0.0741 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 46/50
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0780 - mae: 0.0944 - mean_squared_error: 0.0737 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 47/50
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 25ms/step - loss: 0.0778 - mae: 0.0942 - mean_squared_error: 0.0735 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 48/50
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 25ms/step - loss: 0.0775 - mae: 0.0945 - mean_squared_error: 0.0732 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 49/50
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0816 - mae: 0.0952 - mean_squared_error: 0.0773 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 50/50
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 24ms/step - loss: 0.0787 - mae: 0.0943 - mean_squared_error: 0.0744 - val_loss: 0.0676 - val_mae: 0.0875 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+
+Training with batch size 32 for 10 epochs
+Epoch 51/60
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 27ms/step - loss: 0.0775 - mae: 0.0940 - mean_squared_error: 0.0732 - val_loss: 0.0677 - val_mae: 0.0875 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 52/60
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0770 - mae: 0.0941 - mean_squared_error: 0.0727 - val_loss: 0.0677 - val_mae: 0.0875 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 53/60
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0814 - mae: 0.0950 - mean_squared_error: 0.0771 - val_loss: 0.0676 - val_mae: 0.0877 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 54/60
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 24ms/step - loss: 0.0783 - mae: 0.0941 - mean_squared_error: 0.0740 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 55/60
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 24ms/step - loss: 0.0799 - mae: 0.0951 - mean_squared_error: 0.0755 - val_loss: 0.0677 - val_mae: 0.0875 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 56/60
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 24ms/step - loss: 0.0790 - mae: 0.0946 - mean_squared_error: 0.0747 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 57/60
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 24ms/step - loss: 0.0793 - mae: 0.0949 - mean_squared_error: 0.0749 - val_loss: 0.0676 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 58/60
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 25ms/step - loss: 0.0745 - mae: 0.0937 - mean_squared_error: 0.0702 - val_loss: 0.0677 - val_mae: 0.0874 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 59/60
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 25ms/step - loss: 0.0790 - mae: 0.0945 - mean_squared_error: 0.0746 - val_loss: 0.0676 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 60/60
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 25ms/step - loss: 0.0764 - mae: 0.0937 - mean_squared_error: 0.0721 - val_loss: 0.0676 - val_mae: 0.0877 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+
+Training with batch size 32 for 10 epochs
+Epoch 61/70
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 27ms/step - loss: 0.0801 - mae: 0.0948 - mean_squared_error: 0.0758 - val_loss: 0.0676 - val_mae: 0.0875 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 62/70
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0774 - mae: 0.0942 - mean_squared_error: 0.0731 - val_loss: 0.0677 - val_mae: 0.0877 - val_mean_squared_error: 0.0636 - learning_rate: 5.0000e-07
+Epoch 63/70
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 25ms/step - loss: 0.0803 - mae: 0.0944 - mean_squared_error: 0.0760 - val_loss: 0.0676 - val_mae: 0.0875 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 64/70
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 25ms/step - loss: 0.0784 - mae: 0.0945 - mean_squared_error: 0.0741 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0636 - learning_rate: 5.0000e-07
+Epoch 65/70
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 25ms/step - loss: 0.0789 - mae: 0.0945 - mean_squared_error: 0.0745 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 66/70
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 27ms/step - loss: 0.0784 - mae: 0.0945 - mean_squared_error: 0.0741 - val_loss: 0.0677 - val_mae: 0.0877 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 67/70
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0825 - mae: 0.0951 - mean_squared_error: 0.0781 - val_loss: 0.0676 - val_mae: 0.0875 - val_mean_squared_error: 0.0634 - learning_rate: 5.0000e-07
+Epoch 68/70
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m13s[0m 34ms/step - loss: 0.0779 - mae: 0.0946 - mean_squared_error: 0.0736 - val_loss: 0.0676 - val_mae: 0.0876 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 69/70
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m12s[0m 31ms/step - loss: 0.0789 - mae: 0.0944 - mean_squared_error: 0.0745 - val_loss: 0.0677 - val_mae: 0.0875 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 70/70
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m12s[0m 31ms/step - loss: 0.0764 - mae: 0.0942 - mean_squared_error: 0.0721 - val_loss: 0.0677 - val_mae: 0.0876 - val_mean_squared_error: 0.0636 - learning_rate: 5.0000e-07
+
+Training with batch size 32 for 5 epochs
+Epoch 71/75
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 27ms/step - loss: 0.0783 - mae: 0.0944 - mean_squared_error: 0.0740 - val_loss: 0.0677 - val_mae: 0.0875 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 72/75
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0802 - mae: 0.0950 - mean_squared_error: 0.0759 - val_loss: 0.0676 - val_mae: 0.0875 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 73/75
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0780 - mae: 0.0946 - mean_squared_error: 0.0737 - val_loss: 0.0677 - val_mae: 0.0873 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 74/75
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 26ms/step - loss: 0.0774 - mae: 0.0946 - mean_squared_error: 0.0731 - val_loss: 0.0676 - val_mae: 0.0875 - val_mean_squared_error: 0.0635 - learning_rate: 5.0000e-07
+Epoch 75/75
+[1m378/378[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m10s[0m 27ms/step - loss: 0.0772 - mae: 0.0945 - mean_squared_error: 0.0729 - val_loss: 0.0677 - val_mae: 0.0877 - val_mean_squared_error: 0.0636 - learning_rate: 5.0000e-07
+[1m95/95[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m2s[0m 11ms/step
+
+ Reconstruction Error Analysis:
+Mean Error: 0.06
+Median Error: 0.04
+Error Standard Deviation: 0.13
+50th Percentile: 0.04
+75th Percentile: 0.06
+90th Percentile: 0.10
+95th Percentile: 0.15
+99th Percentile: 1.16
+
+Calculated Anomaly Threshold: 0.16144492648942155
+Model saved to enhanced_autoencoder_nids_iteration_11.h5
+Training and saving completed successfully!
+Execution Time: 665.66 seconds

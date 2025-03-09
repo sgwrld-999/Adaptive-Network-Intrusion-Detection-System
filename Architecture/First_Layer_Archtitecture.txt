@@ -1,0 +1,72 @@
+###  Detailed Overview of Layer 1 (Anomaly Detection & Feature Extraction) in Adaptive Network IDS  
+
+Layer 1 is responsible for detecting anomalies in network traffic using Autoencoder-LSTM for reconstruction-based anomaly detection and CNN for feature enhancement. Below is a step-by-step breakdown of the process.  
+
+---
+
+## Layer 1 Workflow:
+
+### Preprocessing & Feature Engineering
+- Objective: Prepare raw network traffic data for anomaly detection.  
+- Steps:
+  1. Raw Input Data → Capture network traffic features (packet size, protocol type, source/destination IP).  
+  2. Feature Selection → Remove redundant/unimportant features.  
+  3. Outlier Removal → Use Interquartile Range (IQR) Method to eliminate extreme anomalies.  
+  4. Normalization → Apply Robust Scaling to make features comparable.  
+  5. Train-Test Split → Divide dataset into training (80%) and validation (20%).  
+
+---
+
+### Autoencoder-LSTM for Anomaly Detection
+- Objective: Learn the normal network traffic patterns and detect outliers based on reconstruction error.  
+- Steps:
+  1. Batch Normalization → Ensure stable training by normalizing inputs.  
+  2. Encoder Path:
+     - Residual Convolution Blocks (ResNet Style) → Extract spatial dependencies.  
+     - Self-Attention Block → Capture dependencies between long-range features.  
+     - Global Average Pooling (GAP) → Reduce dimensionality while retaining important information.  
+     - Dense Layer (Mish Activation + L1L2 Regularization) → Learn feature representation.  
+     - Dropout & Layer Normalization → Prevent overfitting & ensure stability.  
+     - Latent Space (16 dimensions, Linear Activation) → Encoded representation of network traffic.  
+  3. Decoder Path:
+     - Repeat Vector → Expand latent space representation.  
+     - LSTM Decoder (Recurrent Dropout 0.25) → Reconstruct input sequences.  
+     - Attention Mechanism (Softmax Weighted) → Learn key features for accurate reconstruction.  
+     - Time-Distributed Dense Layer → Generate reconstructed output.  
+  4. Compute Reconstruction Error  
+     - Compare original vs. reconstructed input.  
+     - Low Error → Benign Traffic  
+     - High Error → Suspicious Traffic  
+
+---
+
+### CNN Feature Enhancement
+- Objective: Improve feature representation before passing anomalies to Layer 2.  
+- Steps:
+  1. 1D Convolution (Kernel Size = 3, Stride = 1) → Extract hierarchical spatial features.  
+  2. Batch Normalization & ReLU Activation → Speed up convergence & prevent gradient issues.  
+  3. Max Pooling Layer → Reduce dimensionality while preserving key features.  
+  4. Flatten & Dense Layer (Softmax Activation) → Convert enhanced features into structured format.  
+
+---
+
+### Anomaly Detection
+- Objective: Identify anomalies based on reconstruction error and feature importance.  
+- Steps:
+  1. Calculate Reconstruction Error → Measure difference between input & reconstructed output.  
+  2. Feature Importance Weighting → Rank features based on relevance in anomaly detection.  
+  3. Threshold Comparison → Compare error to pre-defined threshold:  
+     - Below Threshold → Benign Traffic  
+     - Above Threshold → Anomaly Detected  
+  4. Store Anomalies & Forward to Layer 2 for Classification  
+
+---
+
+### Training Optimization
+- Objective: Improve model efficiency, stability, and accuracy.  
+- Steps:
+  1. Adaptive Batch Sizing (128 → 64 → 32) → Reduce batch size dynamically for efficient training.  
+  2. Early Stopping (Patience = 10) → Prevent overfitting by stopping training when performance plateaus.  
+  3. Learning Rate Scheduling (Cosine Decay + Warmup) → Adjust learning rate dynamically for stable convergence.  
+  4. Gradient Clipping (Clipnorm = 1.0) → Prevent exploding gradients in LSTM training.  
+
