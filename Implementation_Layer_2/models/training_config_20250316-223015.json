@@ -1,0 +1,21 @@
+{
+    "dataset_path": "/Users/siddhantgond/Desktop/6THSEM/Project_Elective/Adaptive-Network-Intrusion-Detection-System/Implementaiton/training_dataset.csv",
+    "preprocessing": {
+        "use_smote": true,
+        "use_standard_scaler": false,
+        "test_size": 0.2
+    },
+    "layer1": {
+        "latent_dim": 32,
+        "learning_rate": 0.0001,
+        "threshold": 0.00040043295517710857
+    },
+    "layer2": {
+        "seq_length": 10,
+        "class_weights": {
+            "0": 122.5,
+            "1": 0.5020491803278688
+        }
+    },
+    "timestamp": "20250316-223015"
+}
