@@ -1,0 +1,140 @@
+Selected 44 features: ['Unnamed: 0', 'mqtt.hdrflags', 'tcp.dstport', 'mqtt.msgtype', 'mqtt.len']...
+Removed 1597 outliers.
+Class distribution after ADASYN: Attack_label
+0    50.024538
+1    49.975462
+Name: proportion, dtype: float64
+
+Training Layer 1: Autoencoder...
+Epoch 1/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 3ms/step - loss: 0.3976 - val_loss: 0.1431 - learning_rate: 1.0000e-04
+Epoch 2/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.1510 - val_loss: 0.1055 - learning_rate: 1.0000e-04
+Epoch 3/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.1139 - val_loss: 0.0771 - learning_rate: 1.0000e-04
+Epoch 4/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0795 - val_loss: 0.0607 - learning_rate: 1.0000e-04
+Epoch 5/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 3ms/step - loss: 0.0625 - val_loss: 0.0507 - learning_rate: 1.0000e-04
+Epoch 6/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 3ms/step - loss: 0.0515 - val_loss: 0.0429 - learning_rate: 1.0000e-04
+Epoch 7/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0431 - val_loss: 0.0388 - learning_rate: 1.0000e-04
+Epoch 8/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0374 - val_loss: 0.0342 - learning_rate: 1.0000e-04
+Epoch 9/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0337 - val_loss: 0.0323 - learning_rate: 1.0000e-04
+Epoch 10/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0305 - val_loss: 0.0293 - learning_rate: 1.0000e-04
+Epoch 11/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0283 - val_loss: 0.0289 - learning_rate: 1.0000e-04
+Epoch 12/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0268 - val_loss: 0.0263 - learning_rate: 1.0000e-04
+Epoch 13/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0254 - val_loss: 0.0254 - learning_rate: 1.0000e-04
+Epoch 14/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 3ms/step - loss: 0.0242 - val_loss: 0.0239 - learning_rate: 1.0000e-04
+Epoch 15/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0233 - val_loss: 0.0230 - learning_rate: 1.0000e-04
+Epoch 16/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0224 - val_loss: 0.0220 - learning_rate: 1.0000e-04
+Epoch 17/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0216 - val_loss: 0.0197 - learning_rate: 1.0000e-04
+Epoch 18/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0207 - val_loss: 0.0193 - learning_rate: 1.0000e-04
+Epoch 19/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0194 - val_loss: 0.0197 - learning_rate: 1.0000e-04
+Epoch 20/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0178 - val_loss: 0.0254 - learning_rate: 1.0000e-04
+Epoch 21/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0160 - val_loss: 0.0255 - learning_rate: 1.0000e-04
+Epoch 22/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0152 - val_loss: 0.0249 - learning_rate: 1.0000e-04
+Epoch 23/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0146 - val_loss: 0.0235 - learning_rate: 1.0000e-04
+Epoch 24/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0141 - val_loss: 0.0234 - learning_rate: 5.0000e-05
+Epoch 25/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0138 - val_loss: 0.0221 - learning_rate: 5.0000e-05
+Epoch 26/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0136 - val_loss: 0.0218 - learning_rate: 5.0000e-05
+Epoch 27/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0134 - val_loss: 0.0212 - learning_rate: 5.0000e-05
+Epoch 28/50
+[1m1497/1497[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m4s[0m 3ms/step - loss: 0.0132 - val_loss: 0.0213 - learning_rate: 5.0000e-05
+[1m2993/2993[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m2s[0m 532us/step
+Dynamic threshold set to: -0.6404252188096081
+[1m437/437[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 579us/step
+Detected 1150 anomalies out of 13961 samples.
+[1m437/437[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 566us/step
+Top 5 important features for anomalies:
+mqtt.topic_len: 1.2129
+mqtt.ver: 0.7226
+mqtt.conflags: 0.7213
+mqtt.proto_len: 0.7211
+mqtt.conflag.cleansess: 0.7039
+[1m36/36[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 1ms/step
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+File /opt/anaconda3/lib/python3.11/site-packages/pandas/core/indexes/base.py:3791, in Index.get_loc(self, key)
+   3790 try:
+-> 3791     return self._engine.get_loc(casted_key)
+   3792 except KeyError as err:
+
+File index.pyx:152, in pandas._libs.index.IndexEngine.get_loc()
+
+File index.pyx:181, in pandas._libs.index.IndexEngine.get_loc()
+
+File pandas/_libs/hashtable_class_helper.pxi:2606, in pandas._libs.hashtable.Int64HashTable.get_item()
+
+File pandas/_libs/hashtable_class_helper.pxi:2630, in pandas._libs.hashtable.Int64HashTable.get_item()
+
+KeyError: 9
+
+The above exception was the direct cause of the following exception:
+
+KeyError                                  Traceback (most recent call last)
+Cell In[5], line 356
+    354 encoded_features = layer1.get_encoded_features(anomalies)
+    355 y_anomalies = y_test[anomaly_indices] if not isinstance(y_test, pd.Series) else y_test.iloc[anomaly_indices]
+--> 356 X_layer2, y_layer2 = create_sequences(encoded_features, y_anomalies)
+    358 # Split data for Layer 2
+    359 X_train_l2, X_test_l2, y_train_l2, y_test_l2 = train_test_split(
+    360     X_layer2, y_layer2, test_size=0.2, random_state=42, stratify=y_layer2 if len(np.unique(y_layer2)) > 1 else None
+    361 )
+
+Cell In[5], line 328, in create_sequences(data, labels, seq_length, stride, min_seq_variance)
+    326     seq = data[i:i + effective_seq_length]
+    327     sequences.append(seq)
+--> 328     seq_labels.append(labels[i + effective_seq_length - 1])
+    329 return np.array(sequences), np.array(seq_labels)
+
+File /opt/anaconda3/lib/python3.11/site-packages/pandas/core/series.py:1040, in Series.__getitem__(self, key)
+   1037     return self._values[key]
+   1039 elif key_is_scalar:
+-> 1040     return self._get_value(key)
+   1042 # Convert generator to list before going through hashable part
+   1043 # (We will iterate through the generator there to check for slices)
+   1044 if is_iterator(key):
+
+File /opt/anaconda3/lib/python3.11/site-packages/pandas/core/series.py:1156, in Series._get_value(self, label, takeable)
+   1153     return self._values[label]
+   1155 # Similar to Index.get_value, but we do not fall back to positional
+-> 1156 loc = self.index.get_loc(label)
+   1158 if is_integer(loc):
+   1159     return self._values[loc]
+
+File /opt/anaconda3/lib/python3.11/site-packages/pandas/core/indexes/base.py:3798, in Index.get_loc(self, key)
+   3793     if isinstance(casted_key, slice) or (
+   3794         isinstance(casted_key, abc.Iterable)
+   3795         and any(isinstance(x, slice) for x in casted_key)
+   3796     ):
+   3797         raise InvalidIndexError(key)
+-> 3798     raise KeyError(key) from err
+   3799 except TypeError:
+   3800     # If we have a listlike key, _check_indexing_error will raise
+   3801     #  InvalidIndexError. Otherwise we fall through and re-raise
+   3802     #  the TypeError.
+   3803     self._check_indexing_error(key)
+
+KeyError: 9
