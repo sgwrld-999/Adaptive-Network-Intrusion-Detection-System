@@ -1,0 +1,13 @@
+tcp.dstport_category
+mbtcp.trans_id
+tcp.ack
+mqtt.ver
+tcp.connection.synack
+mbtcp.len
+mqtt.conflags
+mqtt.conack.flags
+tcp.connection.rst
+http.tls_port
+tcp.srcport
+tcp.connection.fin
+mqtt.hdrflags
