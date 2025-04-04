@@ -1,0 +1,21 @@
+Model Test Results
+=================
+
+Model path: /Users/siddhantgond/Desktop/inputsFile/saved_models/model_20250404_144414.keras
+Test data: /Users/siddhantgond/Desktop/inputsFile/processed_dataset_iteration_2.csv
+
+Accuracy: 0.9889
+Precision: 0.9905
+Recall: 0.9889
+F1-score: 0.9893
+False Positive Rate: 0.0084
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.99      0.92     29080
+           1       1.00      0.99      0.99    447055
+
+    accuracy                           0.99    476135
+   macro avg       0.92      0.99      0.96    476135
+weighted avg       0.99      0.99      0.99    476135
